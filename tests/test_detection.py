@@ -6,7 +6,7 @@ import pytest
 
 from ruptures.costs import CostAR
 from ruptures.datasets import pw_constant
-from ruptures.detection import Binseg, BottomUp, Dynp, Pelt, Window, KernelCPD
+from ruptures.detection import Binseg, BottomUp, KMeansDetector, Dynp, Pelt, Window, KernelCPD
 from ruptures.exceptions import BadSegmentationParameters
 
 
